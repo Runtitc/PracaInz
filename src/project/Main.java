@@ -18,7 +18,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("My First App");
+        this.primaryStage.setTitle("Hello, It is my first App");
 
         //loading document MainView.fxml into our class
         showMainView();
